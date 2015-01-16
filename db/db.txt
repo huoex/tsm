@@ -1,0 +1,11 @@
+CREATE TABLE contactos(
+   id INT AUTO_INCREMENT,
+   nombres VARCHAR(100) NOT NULL,
+   apellidos VARCHAR(100) NOT NULL,
+   numeros VARCHAR(100) NOT NULL,
+   PRIMARY KEY (id)
+);
+
+INSERT INTO contactos
+	VALUES(NULL,'David Miguel','Rivero','0426-949.36-60'),
+	(NULL,'El Programador','Llanero','0424-110.11.00');
